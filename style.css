@@ -1,0 +1,48 @@
+.img-container {
+    text-align: center;
+}
+img {
+    width: 15%;
+    padding-top: 145px;
+}
+input {
+    width: 40%;
+    height: 37px;
+    border-radius: 20px;
+    border: 1px grey solid;
+    outline: none;
+}
+input::placeholder {
+    padding-left: 20px;
+}    
+.input-container {
+    text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.btns {
+    text-align: center;
+    padding-top: 30px;
+    
+}
+button {
+    margin: 8px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222
+}
+button:hover {
+    border: 1px grey solid;
+    border-radius: 2px;
+}
